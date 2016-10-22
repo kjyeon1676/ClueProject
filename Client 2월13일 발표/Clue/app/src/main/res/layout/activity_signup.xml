@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/clue_signup"
+    android:layout_weight="1"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:layout_weight="0.17">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:maxLength="15"
+                android:id="@+id/signText"
+                android:hint="ID"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="중복확인"
+                android:background="@drawable/button1"
+                android:id="@+id/repeatButton"
+                />
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:maxLength="15"
+            android:id="@+id/pwText"
+            android:hint="PW"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:maxLength="15"
+            android:id="@+id/passwordCheckText"
+            android:hint="PW 재확인" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:maxLength="25"
+            android:id="@+id/emailText"
+            android:inputType="textEmailAddress"
+            android:hint="E-MAIL"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:text="GENDER :"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radioGroup">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/manButton"
+                    android:text="M"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="8dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="F"
+                    android:id="@+id/womanButton"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="20dp"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="가입하기"
+            android:textSize="20dp"
+            android:background="@drawable/button1"
+            android:id="@+id/signUpFinishButton"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

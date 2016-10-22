@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="15dp"
+            android:text="게임시작"
+            android:textSize="18dp"
+            android:textColor="#ffffe7b5"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/button_king"
+            android:id="@+id/startBtn"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_margin="15dp"
+                android:text="나의 정보"
+                android:textSize="18dp"
+                android:textColor="#ffffe7b5"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:background="@drawable/button_king"
+                android:id="@+id/myinfoBtn"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_margin="15dp"
+                android:text="랭킹보기"
+                android:textSize="18dp"
+                android:textColor="#ffffe7b5"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:background="@drawable/button_king"
+                android:id="@+id/rankBtn"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:layout_margin="15dp"
+            android:text="내커스텀모드"
+            android:textSize="18dp"
+            android:textColor="#ffffe7b5"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/button_king"
+            android:id="@+id/customBtn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="15dp"
+            android:text="튜토리얼"
+            android:textSize="18dp"
+            android:textColor="#ffffe7b5"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/button_king"
+            android:id="@+id/tuBtn"/>
+
+    </LinearLayout>
+</LinearLayout>

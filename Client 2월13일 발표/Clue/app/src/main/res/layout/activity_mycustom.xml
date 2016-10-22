@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="내 커스텀 모드"
+        android:background="@drawable/bar1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* 커스텀 제목"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="제목"
+                android:id="@+id/story_mode"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* 용의자"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="용의자 1"
+                android:id="@+id/suspect1"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="용의자 2"
+                android:id="@+id/suspect2"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="용의자 3"
+                android:id="@+id/suspect3"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="용의자 4"
+                android:id="@+id/suspect4"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="용의자 5"
+                android:id="@+id/suspect5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* 무기"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="무기 1"
+                android:id="@+id/weapon1"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="무기 2"
+                android:id="@+id/weapon2"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="무기 3"
+                android:id="@+id/weapon3"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="무기 4"
+                android:id="@+id/weapon4"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="무기 5"
+                android:id="@+id/weapon5"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="무기 6"
+                android:id="@+id/weapon6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* 방"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="방 1"
+                android:id="@+id/room1"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="방 2"
+                android:id="@+id/room2"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="방 3"
+                android:id="@+id/room3"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="방 4"
+                android:id="@+id/room4"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="방 5"
+                android:id="@+id/room5"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="방 6"
+                android:id="@+id/room6"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="방 7"
+                android:id="@+id/room7"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="방 8"
+                android:id="@+id/room8"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="입력완료"
+                android:textColor="#ffffe7b5"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="@drawable/button_king"
+                android:layout_margin="10dp"
+                android:id="@+id/customComplete"
+                android:onClick="onClickCustomComplete"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

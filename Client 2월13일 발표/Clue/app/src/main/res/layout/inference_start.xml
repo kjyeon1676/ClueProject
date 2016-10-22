@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="312dp"
+        android:id="@+id/wwwq">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/roomText"
+            android:layout_above="@+id/sPlayerSpinner"
+            android:layout_toLeftOf="@+id/inferenceStartBtn"
+            android:layout_toStartOf="@+id/inferenceStartBtn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="에서"
+            android:id="@+id/textView18"
+            android:layout_alignBottom="@+id/roomText"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/sWeaponSpinner"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/textView18"
+            android:layout_alignEnd="@+id/textView18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="로 기절시켰다!!"
+            android:id="@+id/textView19"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/sWeaponSpinner"
+            android:layout_toEndOf="@+id/sWeaponSpinner" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전송"
+            android:id="@+id/inferenceStartBtn"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/sWeaponSpinner"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/sPlayerSpinner"
+            android:layout_alignBottom="@+id/textView16"
+            android:layout_toLeftOf="@+id/textView16"
+            android:layout_toStartOf="@+id/textView16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="(이)가"
+            android:id="@+id/textView16"
+            android:layout_above="@+id/sWeaponSpinner"
+            android:layout_alignLeft="@+id/textView18"
+            android:layout_alignStart="@+id/textView18" />
+    </RelativeLayout>
+
+</LinearLayout>

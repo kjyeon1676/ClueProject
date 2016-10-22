@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/bar1"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="My Card"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="368dp"
+        android:layout_weight="0.18">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView8"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/standrad_cluecard"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView9"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/standrad_cluecard"
+            android:layout_below="@+id/imageView8"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView10"
+            android:src="@drawable/standrad_cluecard"
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/imageView9"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="없음"
+            android:id="@+id/textView26"
+            android:layout_alignTop="@+id/textView25"
+            android:layout_toRightOf="@+id/imageView8"
+            android:layout_toEndOf="@+id/imageView8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="없음"
+            android:id="@+id/textView17"
+            android:layout_alignBottom="@+id/textView20"
+            android:layout_toRightOf="@+id/imageView9"
+            android:layout_toEndOf="@+id/imageView9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="없음"
+            android:id="@+id/textView24"
+            android:layout_alignTop="@+id/textView27"
+            android:layout_toRightOf="@+id/imageView10"
+            android:layout_toEndOf="@+id/imageView10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Player"
+            android:id="@+id/textView25"
+            android:layout_above="@+id/imageView9"
+            android:layout_alignLeft="@+id/textView20"
+            android:layout_alignStart="@+id/textView20"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Player"
+            android:id="@+id/textView20"
+            android:layout_alignBottom="@+id/imageView9"
+            android:layout_alignLeft="@+id/textView27"
+            android:layout_alignStart="@+id/textView27"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Player"
+            android:id="@+id/textView27"
+            android:layout_marginRight="46dp"
+            android:layout_marginEnd="46dp"
+            android:layout_alignBottom="@+id/imageView10"
+            android:layout_toLeftOf="@+id/imageView10"
+            android:layout_toStartOf="@+id/imageView10"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:textSize="20dp"
+            android:text="확인"
+            android:textColor="#ffffe7b5"
+            android:textStyle="bold"
+            android:background="@drawable/button_king"
+            android:id="@+id/button4"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>
